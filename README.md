@@ -16,6 +16,12 @@ Upload your docs, get a support chatbot that answers customer questions with cit
 - **Admin panel** — upload and manage docs at `/admin`
 - **Zero infra** — storage, search, database, and agent runtime are all handled by OnCell
 
+## 📊 EvalMonkey Benchmark Results (Claude Sonnet 4.5)
+
+[![EvalMonkey Reliability](https://img.shields.io/badge/Production%20Reliability-Score%3A21.5-red)](https://github.com/Corbell-AI/evalmonkey)
+
+*This agent scored a Production Reliability of **21.5/100** when benchmarked on Claude Sonnet 4.5 across HotpotQA, TruthfulQA, and MMLU with adversarial chaos profiles (prompt injection & schema mutation) by [EvalMonkey](https://github.com/Corbell-AI/evalmonkey).*
+
 ## How OnCell makes this possible
 
 Traditional support bots need you to stitch together a vector database, file storage, a runtime, and a conversation store. That's four services before you write a single line of agent logic.
